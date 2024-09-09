@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  region debug */
+    /* debug header */
+.debug .hed-flex-conteiner{
+    background-color: lightskyblue;
+}
+.debug nav{
+    border: 3px dashed;
+    background-color: rgb(255, 145, 0);
+}
+    /* debug layout1 */
+.debug .Layout1-flex-container{
+    background-color: rgb(8, 8, 109);
+}
+.debug .Layout-box1{
+    border: 3px dashed;
+    background-color: rgb(218, 68, 185);
+}
+    /* debug layout 2-3-4 */
+.debug .Layout2-flex-container{
+    background-color: white;
+}
+.debug .Layout-box2{
+    border: 3px dashed;
+    background-color: aqua;
+}
+.debug .Layout-box3{
+    border: 3px dashed;
+    background-color: pink;
+}
+.debug .Layout3-flex-container{
+    background-color: lightgray;
+}
+    /* debug layout5 */
+.debug .Layout5-flex-container{
+   background-color: lightgray;
+}
+.debug .Layout-box5{
+    border: 3px dashed;
+    background-color: green;
+}
+    /* debug layout6 */
+.debug .Layout6-flex-container{
+    background-color: rgba(29, 26, 26, 0.945);
+}
+.debug .Layout-box6{
+    border: 3px dashed;
+    background-color: rgb(241, 77, 104);
+}
+.debug .Layout-box7{
+    border: 3px dashed white;
+    background-color: rgb(5, 197, 181);
+}
+    /* debug footer */
+.debug .foot-flex-container{
+    background-color: rgba(29, 26, 26, 0.945) ;
+}
+.debug .footer-content{
+    background-color:rgb(0, 255, 191) ;
+}
+.debug .foot-logo{
+    background-color: rgb(204, 109, 125);
+    border: 3px dashed;
+}
+.debug .foot-bott{
+    background-color: rgb(204, 109, 125);
+    border: 3px dashed;
+}
+/* endregion debug */
+/* region header */
+.hed-flex-conteiner{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center ;
+    padding-left: 8%;
+    padding-right: 8%; 
+    
+}
+.logo-L, .logo-R{
+    width: 22%; 
+    padding:  10px;
+}
+
+.logo-L, .logo-R, .link{
+    display: flex;
+    align-items: center;
+    height: 50%;
+    padding: ;
+}
+
+.logo-R{
+    display: flex;
+    justify-content: end;
+}
+
+.link{
+    height: 50%;
+    width: 56%;
+    justify-content: center;
+ }
+ 
+ /* endregion header */
+
+ /* region main */
+    /* Layout1 */
+.Layout1-flex-container{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.Layout-box1{
+    height: 400px;
+    width: 1000px;
+}
+    /*Layout2-3-4  */
+.Layout2-flex-container{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.Layout-box2{
+    height: 400px;
+    width: 700px
+}
+.Layout-box3{
+    height: 400px;
+    width: 500px
+}
+.Layout3-flex-container{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+    /* Layout5 */
+.Layout5-flex-container{
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.Layout-box5{
+    height: 900px;
+    width: 1200px;
+}
+    /*Layout6  */
+.Layout6-flex-container{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Layout-box6{
+    height: 550px;
+    width: 400px;
+}
+.Layout-box7{
+    height: 550px;
+    width: 200px;
+}   
+/* endregion main */
+/* region footer */
+.foot-flex-container{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.footer-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+    width: 1200px;
+}
+.foot-logo{
+    height: 40px;
+    width: 60px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.foot-bott{
+    height: 40px;
+    width: 60px;
+    
+}
+
+/* end region footer */
+
